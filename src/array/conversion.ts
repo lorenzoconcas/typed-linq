@@ -98,5 +98,11 @@ export function clone<T>(
 export function deepClone<T>(
     this: T[]
 ): T[] {
-    return structuredClone(this)
+    if (typeof globalThis.structuredClone !== 'function') {
+        throw new Error(
+            'deepClone() requires structuredClone(), which is not available in the current runtime.'
+        )
+    }
+
+    return globalThis.structuredClone(this)
 }

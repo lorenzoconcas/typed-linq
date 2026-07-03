@@ -1,6 +1,7 @@
 {
   "name": "tsinq",
   "version": "1.0.0",
+  "author": "Lorenzo Concas",
   "description": "Powerful LINQ-inspired extensions for Array.prototype with full TypeScript support.",
   "keywords": [
     "linq",
@@ -39,8 +40,8 @@
     "url": "https://github.com/lorenzoconcas/tsinq/issues"
   },
   "homepage": "https://github.com/lorenzoconcas/tsinq#readme",
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^26.1.0",
     "typescript": "^5.5.3"
   }
 }

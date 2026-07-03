@@ -28,7 +28,7 @@ src/
 │
 ├── index.ts
 ├── register.ts
-├── array.d.ts
+├── array.ts
 │
 └── array/
     ├── filtering.ts

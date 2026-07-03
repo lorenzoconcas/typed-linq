@@ -325,13 +325,13 @@ declare global {
 
         findDuplicates(): T[]
 
-        isCollectionOf<U>(
-            predicate: (item: T) => item is U
-        ): this is U[]
+        isCollectionOf<S extends T>(
+            predicate: (item: T) => item is S
+        ): this is Array<S>
 
-        isOfType<U>(
-            predicate: (item: T) => item is U
-        ): this is U[]
+        isOfType<S extends T>(
+            predicate: (item: T) => item is S
+        ): this is Array<S>
 
         isEmpty(): boolean
 

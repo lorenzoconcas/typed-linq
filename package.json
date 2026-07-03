@@ -1,6 +1,6 @@
 {
   "name": "typed-linq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Lorenzo Concas",
   "description": "Powerful LINQ-inspired extensions for Array.prototype with full TypeScript support.",
   "keywords": [

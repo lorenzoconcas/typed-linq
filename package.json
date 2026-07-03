@@ -1,5 +1,5 @@
 {
-  "name": "tsinq",
+  "name": "typed-linq",
   "version": "1.0.0",
   "author": "Lorenzo Concas",
   "description": "Powerful LINQ-inspired extensions for Array.prototype with full TypeScript support.",
@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorenzoconcas/tsinq.git"
+    "url": "git+https://github.com/lorenzoconcas/typed-linq.git"
   },
   "bugs": {
-    "url": "https://github.com/lorenzoconcas/tsinq/issues"
+    "url": "https://github.com/lorenzoconcas/typed-linq/issues"
   },
-  "homepage": "https://github.com/lorenzoconcas/tsinq#readme",
+  "homepage": "https://github.com/lorenzoconcas/typed-linq#readme",
   "devDependencies": {
     "@types/node": "^26.1.0",
     "typescript": "^5.5.3"

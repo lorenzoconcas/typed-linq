@@ -1,4 +1,4 @@
-# tsinq
+# typed-linq
 
 > Powerful LINQ-inspired extensions for `Array.prototype` with full TypeScript support.
 
@@ -26,7 +26,7 @@ Designed to feel natural for developers coming from C#, while embracing modern T
 # Installation
 
 ```bash
-npm install tsinq
+npm install typed-linq
 ```
 
 ---
@@ -36,7 +36,7 @@ npm install tsinq
 Simply import the library once during your application startup.
 
 ```ts
-import 'tsinq'
+import 'typed-linq'
 ```
 
 That's it.
